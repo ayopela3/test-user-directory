@@ -32,6 +32,8 @@ npm run test
 
    > We can use useEffect to fetch data and update the state, useMemo to memoize the filtered users, and useCallback to memoize the search handler.
 
+   > useMemo is used when you want to memoize a value without re-rendering the component, while useCallback is used when you want to memoize a function to maintain referential equality and useEffect is used when you want to perform side effects.
+
 3. How would you ensure accessibility in the User Directory component?
 
    > We can use ARIA roles and attributes to ensure accessibility in the User Directory component.
